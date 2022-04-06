@@ -5,3 +5,10 @@ My Social Media version 2 is a social network made originally in pure PHP for a 
 --------------------------------------------------------------------------------------------------------------
 
 
+![msocial img 1](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot01.JPG?raw=true)
+![msocial img 1](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot02.JPG?raw=true)
+![msocial img 2](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot03.JPG?raw=true)
+![msocial img 3](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot04.JPG?raw=true)
+![msocial img 2](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot05.JPG?raw=true)
+![msocial img 3](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot06.JPG?raw=true)
+![msocial img 3](https://github.com/rgstech/mysocialmedia2/blob/master/screenshots/screenshot07.JPG?raw=true)
