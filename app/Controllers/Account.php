@@ -104,12 +104,7 @@ class Account extends BaseController
 
 			if ($arquivo && !$arquivo->isValid()) {
 
-				// $dados = [
-				// 	'status' => false,
-				// 	'erro'   => $arquivo->getErrorString()
-				// ];
-
-
+		
 				return view('account/signup');
 
 				
