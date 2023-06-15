@@ -57,7 +57,7 @@ function refreshLikesPost(pid, uid, elemento)
             
           <div class = "col-sm-12 ">
                 <?php echo form_open('post/save',  ['class' => 'pull_right']) ?>
-   
+                <?= csrf_field() ?>
                 <input type="hidden" name="user_id" value="<?php echo session()->get('id') ?>" />
                 	<h3 class="">Escrever um novo Post</h3>
                     <fieldset>       

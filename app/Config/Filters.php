@@ -18,14 +18,14 @@ class Filters extends BaseConfig
      * @var array
      */
     public $aliases = [
-     // 'csrf'          => CSRF::class,
+        'csrf'          => CSRF::class,
         'toolbar'       => DebugToolbar::class,
         'honeypot'      => Honeypot::class,
     //  'invalidchars'  => InvalidChars::class,
     //  'secureheaders' => SecureHeaders::class,
-		'cors'     => \App\Filters\Cors::class,
-		'auth'     => \App\Filters\Auth::class,
-		'authjwt'  => \App\Filters\AuthJwtFilter::class
+		    'cors'     => \App\Filters\Cors::class,
+		    'auth'     => \App\Filters\Auth::class,
+		    'authjwt'  => \App\Filters\AuthJwtFilter::class
     ];
 
     /**
@@ -43,21 +43,21 @@ class Filters extends BaseConfig
                                                  'account/signup/*',
                                                  'account/createaccount',
                                                  'account/createaccount/*',  //exceção para pagina de login, pois e necessario logar pra autenticar
-					                             'account/testsucess/*',
+					                                       'account/testsucess/*',
                                                  'account/testsucess/',
                                                  'api/', 
                                                  'api/*', 
                                                  '/webservice/login/*', 
                                                  '/webservice/login',
-												 'closure/',
-												 'closure/*' ] 
+												                         'closure/',
+												                         'closure/*' ] 
                                 ],   //exceção para api, pois sera autenticada com jwt
 	              'honeypot',
-		       //   'csrf', 
+		            'csrf', 
 		],
 		'after'  => [
 			'toolbar',
-		        'honeypot',
+		  'honeypot',
 		],
 	];
     /**
@@ -80,12 +80,9 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    	public $filters = [
-		'authjwt'  => [
-		'before' => [
-			  'api/*',
-			  'api/'
-		],
-	  ]
-	];
+    	public $filters = [ 'authjwt'  => [ 'before' => [ 'api/*',
+			                                                  'api/' 
+                                                      ],
+                                        ]
+                        ];
 }

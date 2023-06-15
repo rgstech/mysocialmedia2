@@ -239,7 +239,7 @@
             </div>
             <?php } ?>
             <form action="<?php echo site_url('account/createaccount') ?>" method="post" enctype="multipart/form-data">
-
+            <?= csrf_field() ?>
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Nome completo:</span>
