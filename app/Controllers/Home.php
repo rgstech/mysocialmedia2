@@ -26,7 +26,10 @@ class Home extends BaseController
 
     protected $usuariosModel;
 //  private   $likeModel;
-    private   $postModel;
+    private $postModel;
+    private $homeModel;
+    private $commentModel;
+
 
     function __construct()
     {

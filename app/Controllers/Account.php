@@ -9,7 +9,9 @@ use CodeIgniter\I18n\Time;
 class Account extends BaseController
 {
 
+    private $usuariosModel;
 
+	
 	function __construct()
 	{
 		helper('form');

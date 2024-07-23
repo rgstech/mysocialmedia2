@@ -10,6 +10,10 @@ use CodeIgniter\I18n\Time;
 class Comment extends BaseController
 {
 
+  private $db;
+  private $session;
+  private $commentModel;
+
 
 
     function __construct() 

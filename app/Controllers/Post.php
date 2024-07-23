@@ -10,7 +10,12 @@ use App\Models\HomeModel;
 class Post extends BaseController
 {
     
-    
+    private $db;
+    private $session;
+    private $postModel;
+    private $homeModel;
+
+
 
     function __construct() 
     {

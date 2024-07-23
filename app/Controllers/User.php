@@ -8,7 +8,8 @@ use App\Models\UserModel;
 
 class User extends BaseController
 {
-  
+       private $usuariosModel;
+
        function __construct()
     {
         helper('form');
